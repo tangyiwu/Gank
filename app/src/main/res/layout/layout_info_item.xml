@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.tyw.gank.view.ClickFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/image_viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="188dp"
+        android:visibility="visible" />
+
+    <RelativeLayout
+        android:id="@+id/rl_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom">
+
+        <TextView
+            android:id="@+id/tv_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:maxLines="2"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            tools:text="一个自己做的填图应用，填图部分逻辑功能已经基本完善，目前开源了" />
+
+        <TextView
+            android:id="@+id/tv_who"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_desc"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/color_4A4A4A"
+            android:textSize="12sp"
+            tools:text="via LHF" />
+
+        <TextView
+            android:id="@+id/tv_created_at"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/tv_desc"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/color_4A4A4A"
+            android:textSize="12sp"
+            tools:text="2016-11-24" />
+
+    </RelativeLayout>
+
+</com.example.tyw.gank.view.ClickFrameLayout>

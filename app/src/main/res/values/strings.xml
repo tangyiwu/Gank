@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Gank.io</string>
+    <string name="android">Android</string>
+    <string name="ios">iOS</string>
+    <string name="front_end">前端</string>
+    <string name="search">search</string>
+</resources>
