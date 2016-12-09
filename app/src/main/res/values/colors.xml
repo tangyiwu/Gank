@@ -5,6 +5,7 @@
     <color name="colorAccent">#FF4081</color>
     <color name="colorDivider">#D0D0D0</color>
     <color name="white">#FFFFFF</color>
+    <color name="halfWhite">#7FFFFFFF</color>
     <color name="black">#000000</color>
     <color name="color_4D6992">#4D6992</color>
     <color name="color_FFFF8C">#FFFF8C</color>

@@ -4,4 +4,6 @@
     <string name="ios">iOS</string>
     <string name="front_end">前端</string>
     <string name="search">search</string>
+
+    <string name="load_more">加载更多...</string>
 </resources>

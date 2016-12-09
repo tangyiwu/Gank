@@ -44,6 +44,6 @@ public class ImageFragment extends Fragment {
     }
 
     private void displayImage(ImageView imageView) {
-        Glide.with(imageView.getContext()).load(image_url).diskCacheStrategy(DiskCacheStrategy.SOURCE).into(imageView);
+        Glide.with(imageView.getContext()).load(image_url).diskCacheStrategy(DiskCacheStrategy.SOURCE).crossFade().into(imageView);
     }
 }
